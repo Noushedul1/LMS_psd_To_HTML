@@ -1,0 +1,489 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+	font-size: 1rem;
+}
+/* Start for header */
+header nav ul li:nth-child(5){
+	padding-left: 140px;
+}
+header .bg-color{
+	background: #ab0534;
+}
+header .navbar-light{
+	color: white important!;
+}
+header .navbar{
+	box-shadow: 0px 0.1px 0.4px 3px rgba(4, 35, 65, 0.2);
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   header .navbar .navbar-nav li:nth-child(5){
+   	padding-left: 0px;
+   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .navbar .navbar-nav li:nth-child(5){
+   	padding-left: 0px;
+   }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header .navbar .navbar-nav li:nth-child(5){
+   	padding-left: 0px;
+   }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* End for header */
+
+/* Start for banner */
+#banner{
+	height: 500px;
+	background: #ab0534;
+}
+#banner button{
+	background: #ab0534;
+	color: white;
+	height: 50px;
+	width: 250px;
+	border-radius: 30px;
+	box-shadow: 0px 1px 0.5px 0.3px rgba(4, 35, 65, 0.2);
+}
+#banner h1{
+	color: white;
+	padding-top: 90px;
+}
+#banner p{
+	color: white;
+}
+/* Start for banner */
+
+/* Start for course categories */
+#course-categoris h4{
+	padding-top: 30px;
+}
+#course-categoris .container .row i{
+	color: #ab0534;
+}
+#course-categoris .container .row .horizontal-line{
+	background: black;
+}
+#course-categoris{
+	background: #f4f4f4;
+	min-height: 500px;
+}
+#course-categoris .bg-design{
+	transition: all .1s ease-in;
+	-webkit-transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+	-ms-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+}
+#course-categoris .bg-design>i{
+	color: #ab0534;
+}
+#course-categoris .bg-design:hover{
+	background-color: #ab0534; 
+}
+#course-categoris .bg-design:hover .horizontal-line{
+	opacity: 0;
+}
+#course-categoris .bg-design:hover p,
+#course-categoris .bg-design:hover i{
+	color: #ffffff;
+}
+/* End for course categories */
+
+/* Start for top course */
+#topCourse {
+	margin-top: 50px;
+}
+#topCourse .container .container .row .btn{
+	border: 1px solid black;
+	border-radius: 15px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+#topCourse .container .row .forBorder{
+	border: .5px solid #edf1f7;
+	height: 100%;
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+}
+#topCourse .container .row .forBorder:hover{
+	box-shadow: 0px 2px 4px 3px #edf1f7;
+}
+#topCourse .container .row .forBorder .rate{
+	color: #ab0534;
+	padding-left: 15px;
+	overflow: hidden;
+}
+#topCourse .container .row .forBorder .rating{
+	color: #ed8000;
+}
+#topCourse .container .row .forBorder .topCourse6{
+	height: 175px;
+	width: 260px;
+}
+#topCourse .container .row:nth-child(2){
+	padding-bottom: 20px;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   #topCourse .container .row .topCourse{
+   	margin-top: 20px;
+   }
+   #topCourse .container .row img{
+   	padding: 0 25px 0 25px;
+   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #topCourse .container .row .topCourse{
+   	margin-top: 15px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+     #topCourse .container .row .forBorder .topCourse6{
+     	height: 105px;
+     }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #topCourse .container .row .forBorder .resp3{
+     	padding-top: 30px;
+     }
+     #topCourse .container .row .forBorder .topCourse6{
+     	height: 145px;
+     }
+}
+
+
+/* End for top course */
+
+/* Start for popular course */
+#popularCourse{
+	margin-top: 3.5rem;
+	background: #f4f4f4;
+	min-height: 18.75rem;
+	padding-top: 2.5rem;
+}
+#popularCourse .container .row .popular p{
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+	top: -55px;
+}
+#popularCourse .container .row .popular a:hover{
+	color: #ffffff;
+}
+#popularCourse .container .row .popular a:active{
+	color: #ffffff;
+}
+#popularCourse .container .row .popular a:visited{
+	color: #ffffff;
+}
+#popularCourse .container .row .popular a:link{
+	color: #ffffff;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   #popularCourse .container .row .popular p{
+   	font-size: 15px;
+   	position: relative;
+	z-index: 1;
+	top: -25px;
+   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #popularCourse .container .row .popular p{
+   	position: relative;
+	z-index: 1;
+	top: -35px;
+   }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* End for popular course */
+
+/* Start for  best sellar course */
+.bt{
+	background: white;
+	padding: 10px;
+	border-radius: 14px;
+}
+#bestSellar {
+	margin-top: 50px;
+}
+#bestSellar .container .container .row .btn{
+	border: 1px solid black;
+	border-radius: 15px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+#bestSellar .container .row .forBorder{
+	border: .5px solid #edf1f7;
+	height: 100%;
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+}
+#bestSellar .container .row .forBorder:hover{
+	box-shadow: 0px 2px 4px 3px #edf1f7;
+}
+#bestSellar .container .row .forBorder .rate{
+	color: #ab0534;
+	padding-left: 15px;
+	overflow: hidden;
+}
+#bestSellar .container .row .forBorder .rating{
+	color: #ed8000;
+}
+#bestSellar .container .row .forBorder .topCourse6{
+	height: 175px;
+	width: 260px;
+}
+#bestSellar .container .row:nth-child(2){
+	padding-bottom: 20px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+     #bestSellar .container .row .forBorder .topCourse6{
+     	height: 105px;
+     }
+     #bestSellar .container .row .forBorder .resp6{
+     	padding-top: 30px;
+     }
+     #bestSellar .container .row .forBorder .resp4{
+     	padding-top: 30px;
+     }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+     #bestSellar .container .row .forBorder .topCourse6{
+     	height: 145px;
+     }
+}
+/* End for  best sellar course */
+
+/* Start for goals */
+#goals .container .row .goalsBorder{
+	padding-top: 15px;
+	height: 100%;
+	padding-bottom: 15px;
+	border: .5px solid #edf1f7;
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+}
+#goals .container .row .goalsBorder:hover{
+	box-shadow: 0px 2px 4px 3px #edf1f7;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   #goals .container .row .goalsBorder{
+   	padding-top: 15px;
+   }
+   #goals .container .row .goals{
+   	margin-top: 15px;
+   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #goals .container .row .goals{
+   	margin-top: 15px;
+   }
+   #goals .container .row .goalsDetails5{
+   	padding-top: 25px;
+   }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #goals .container .row .resp6{
+   	padding-top: 30px;
+   }
+}
+
+
+/* End for goals */
+
+ /* Start for client application */
+ #clientApplication{
+ 	background: #f4f4f4;
+ 	min-height: 700px;
+ 	padding-top: 30px;
+ }
+ #clientApplication .container .row .clientBio{
+ 	/* float: right; */
+ 	position: relative;
+ 	z-index: 1;
+ 	left: 100px;
+ 	bottom: 80px;
+ }
+  /* End for client application */
+
+ /*  Start for our blog */
+ #ourBlog{
+ 	margin-top: 25px;
+ }
+ #ourBlog .container .row .time{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ #ourBlog .container .row h5{
+ 	padding-top: 15px;
+ }
+ #ourBlog .container .row .readMore{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ #ourBlog .container .row .more:hover{
+ 	color: #b7425b;
+ }
+ 
+ #ourBlog .container .row .more:active{
+ 	color: #b7425b;
+ }
+ #ourBlog .container .row .more:link{
+ 	color: #b7425b;
+ }
+ #ourBlog .container .row .more:visited{
+ 	color: #b7425b;
+ }
+ #ourBlog .container .row .forBorder{
+ 	border: .5px solid #edf1f7;
+ 	height: 100%;
+ 	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+ }
+ #ourBlog .container .row .forBorder:hover{
+ 	box-shadow: 0px 2px 4px 3px #edf1f7;
+ }
+ /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   #ourBlog .container .row .forBorder img{
+   	padding-left: 50px;
+   }
+   #ourBlog .container .row .topCourse{
+   	margin-top: 20px;
+   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #ourBlog .container .row .topCourse{
+   	margin-top: 20px;
+   }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #ourBlog .container .row .resp3{
+    	padding-top: 30px;
+    }
+}
+
+ /* End for our blog */
+
+/*  Start for search box */
+#instructor{
+	margin-top: 100px;
+}
+.bgoverlay{
+	background-image: url("../img/bgoverlay.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+#instructor p{
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+#instructor .searchBox{
+	text-align: center;
+}
+#instructor .inst{
+	padding: 15px 70px 15px 70px;
+	border-radius: 20px;
+}
+#instructor .join{
+	position: absolute;
+	z-index: 1;
+	bottom: 3px;
+	left: 67%;
+}
+#instructor .clr{
+	background: #ab0534;
+	padding-top: 12px;
+	padding-bottom: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+	top: 10px;
+	border-radius: 10px;
+}
+/* End for search box */
+
+/* Start for footer */
+footer{
+	background: #292662;
+	min-height: 400px;
+}
+footer .container .row ul li{
+	list-style-type: none;
+	color: white;
+}
+footer .container .row ul li a:hover{
+	color: white;
+}
+footer .container .row ul li a:visited{
+	color: white;
+}
+footer .container .row ul li a:link{
+	color: white;
+}
+footer .container .row ul li a:active{
+	color: white;
+}
+footer .container .copy{
+	text-align: center;
+	color: white;
+}
+/* End for footer */
